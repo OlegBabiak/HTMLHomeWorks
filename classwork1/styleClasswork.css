@@ -1,0 +1,48 @@
+body {
+    width: 700px;
+    height: auto;
+    border-color: red;
+    padding: 15px;
+    border-width: 10px;
+    border-style: ridge;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2-3UPX08DDuTqEbv8luM_BuhEK-Hm_Wpdw&usqp=CAU") no-repeat ;
+    background-size: 700px;
+    background-position-x: 30px;
+    background-position-y: 100px;
+}
+
+.h {
+    border-width: 10px;
+    border-style: solid;
+    height: 45px;
+}
+
+h1 {
+    border-color: greenyellow;
+}
+
+h2 {
+    border-color: greenyellow;
+}
+
+p {
+    border-color: yellow;
+}
+
+img {
+    border-color: #925b5e;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+ul{
+    border-width: 10px;
+    border-style: solid;
+    padding: 15px;
+    height: auto;
+    width: 50%;
+    color: gray;
+}
+li{
+    color: #202294;
+    margin-top: 10px;
+}
