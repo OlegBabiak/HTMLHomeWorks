@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: #8a2928;
+}
+.p1{
+    background-color: #c0c0c0;
+    padding: 20px;
+}
+.p2{
+    background-color: #6496ec;
+    padding: 40px 0 40px;
+}
+
+.d1{background-color: #6cba68;
+    width: 200px;
+    height: 200px;
+}
+.d2{background-color: #8987ac;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
