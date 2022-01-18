@@ -1,37 +1,40 @@
-body{
+.b {
     display: flex;
     justify-content: center;
 }
-.nearWrap{
+
+.nearWrap {
     height: 400px;
     width: 40px;
     background-color: white;
     position: relative;
     margin: 10px;
 }
-.in1{
+
+.in1 {
     width: 400px;
     height: 200px;
     background-color: #818181;
-    box-shadow:   -20px -16px 15px 10px #d3b594;
-
-
+    box-shadow: -20px -16px 15px 10px #d3b594;
 }
-.wrap{
+
+.wrap {
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10% ;
+    padding-top: 10%;
 
 }
 
-.in2{
+.in2 {
     margin-top: 20px;
     border-left: 5px solid red;
     color: silver;
 
 }
-.p123{
+
+.p123 {
     margin-left: 15px;
 }
