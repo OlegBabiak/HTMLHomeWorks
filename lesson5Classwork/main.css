@@ -1,0 +1,274 @@
+body {
+    text-align: center;
+    font-size: 36px;
+}
+
+@media screen  and (min-width: 992px) {
+    .wrapper {
+        height: 800px;
+        width: 600px;
+
+
+    }
+
+    .wrapper2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 10%;
+        background-color: silver;
+    }
+
+    .wr {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .leftItem {
+        width: 15%;
+        height: 90%;
+
+    }
+
+    .leftItemM {
+        width: 0;
+        height: 0;
+        color: silver;
+
+    }
+
+    .colorLeftItem {
+        background-color: #6cba68;
+    }
+
+    .mainContent {
+        width: 100%;
+        height: 90%;
+        background-color: #0e66a8;
+    }
+
+    .three {
+        width: 100%;
+        height: 20%;
+        background-color: #7dcce3;
+    }
+
+    .four {
+        width: 100%;
+        height: 10%;
+        background-color: #8987ac;
+
+    }
+
+    .wr2 {
+        width: 100%;
+        height: 57%;
+        background-color: #8a2928;
+        display: flex;
+    }
+
+    .item1 {
+        height: 100%;
+        width: 80%;
+        background-color: #d3b594;
+    }
+
+    .item2 {
+        height: 100%;
+        width: 20%;
+        background-color: red;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 13%;
+        background-color: #2efff2;
+    }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 992px) {
+    .wrapper {
+        display: flex;
+        height: 800px;
+        width: 600px;
+    }
+
+    .wrapper2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        width: 80%;
+        height: 10%;
+        background-color: silver;
+    }
+
+    .wr {
+        width: 80%;
+        height: 100%;
+        display: flex;
+    }
+
+    .leftItem {
+        width: 0;
+        height: 0;
+    }
+
+    .leftItemM {
+        width: 20%;
+        height: 30%;
+        border: black dotted 2px;
+
+    }
+
+    .colorLeftItem {
+        background-color: #6cba68;
+    }
+
+    .mainContent {
+        width: 100%;
+        height: 90%;
+        background-color: #0e66a8;
+    }
+
+    .three {
+        width: 100%;
+        height: 25%;
+        background-color: #7dcce3;
+    }
+
+    .four {
+        width: 100%;
+        height: 35%;
+        background-color: #8987ac;
+
+    }
+
+    .wr2 {
+        width: 100%;
+        height: 27%;
+        background-color: #8a2928;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item1 {
+        height: 60%;
+        width: 100%;
+        background-color: #d3b594;
+    }
+
+    .item2 {
+        height: 40%;
+        width: 100%;
+        background-color: red;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 13%;
+        background-color: #2efff2;
+    }
+
+}
+
+@media screen  and  (max-width: 767px) {
+    .wrapper {
+        display: flex;
+        height: 800px;
+        width: 600px;
+    }
+
+    .wrapper2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        width: 80%;
+        height: 10%;
+        background-color: silver;
+    }
+
+    .wr {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        /*flex-direction: column;*/
+    }
+
+    .leftItemM {
+        width: 20%;
+        height: 25%;
+        border: black dotted 2px;
+
+    }
+
+    .leftItem {
+        width: 0;
+        height: 0;
+    }
+
+    .colorLeftItem {
+
+        background-color: #37ff00;
+    }
+
+    .mainContent {
+        width: 100%;
+        height: 90%;
+        background-color: #0e66a8;
+    }
+
+    .three {
+        width: 100%;
+        height: 15%;
+        background-color: indigo;
+    }
+
+    .four {
+        width: 100%;
+        height: 20%;
+        background-color: lavender;
+
+    }
+
+    .wr2 {
+        width: 100%;
+        height: 47%;
+        background-color: #8a2928;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item1 {
+        height: 50%;
+        width: 100%;
+        background-color: #d3b594;
+    }
+
+    .item2 {
+        height: 50%;
+        width: 100%;
+        background-color: red;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 13%;
+        background-color: #2efff2;
+    }
+
+}
+
+
+
+
