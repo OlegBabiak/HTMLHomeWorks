@@ -1,0 +1,47 @@
+.dfl {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.bc246 {
+    background-color: #246abb;
+}
+
+.wrapper {
+    width: 800px;
+    height: 1200px;
+    font-family: Tahoma, serif;
+    color: white;
+}
+
+.bwWrapper {
+    justify-content: space-between;
+}
+
+.bw {
+    width: 32%;
+    height: 88%;
+    background-color: #18467b;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.txtWidC {
+    font-size: 3em;
+}
