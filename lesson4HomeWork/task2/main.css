@@ -1,0 +1,68 @@
+.dfl {
+    display: flex;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.txtColor {
+    color: white;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+.wrapper {
+    width: 800px;
+    height: 800px;
+    background-color: #7dcce3;
+    font-size: 35px;
+}
+
+.header {
+    height: 14.5%;
+    background-color: #0e66a8;
+    margin-bottom: 0.5%;
+}
+
+.txtH {
+    margin-top: 2%;
+}
+
+.nav {
+    height: 10%;
+    background-color: #144c79;
+    align-items: center;
+}
+
+.wr {
+    height: 62%;
+    justify-content: space-between;
+}
+
+.main {
+    width: 74.5%;
+    background-color: #18a3c5;
+}
+
+.txtMain {
+    margin-top: 150px;
+}
+
+.aside {
+    height: 100%;
+    width: 25%;
+    background-color: #5376ae;
+}
+
+.txtAside {
+    margin-top: 150px;
+}
+
+.footer {
+    height: 13%;
+    align-items: center;
+}
