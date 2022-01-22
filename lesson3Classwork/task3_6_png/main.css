@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 850px;
+    height: 1300px;
+    padding: 0.5% 1% 1.5% 0.5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 42px;
+    font-family: Tahoma, serif;
+}
+
+.header {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    width: 49%;
+    height: 100%;
+    background-color: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 49%;
+    height: 100%;
+    background-color: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kabobs {
+    width: 100%;
+    height: 23%;
+    background-color: #246abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerWrapper {
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 28px;
+}
+
+.footer {
+    width: 32%;
+    height: 100%;
+    background-color: #18467b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
