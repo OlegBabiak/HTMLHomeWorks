@@ -1,0 +1,37 @@
+.fl{
+    display: flex
+}
+.jc{
+    justify-content: center;
+}
+.ai{
+    align-items: center;
+}
+.bc{
+    background-color: silver;
+}
+.wrapper{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    border: gray solid 5px;
+}
+.header{
+    width: 98%;
+    height: 33%;
+    margin: 1%;
+}
+.wr{
+    width: 98%;
+    height: 61%;
+    margin: 1%;
+}
+.inLeft{
+    width: 79%;
+    height: 100%;
+    margin-right: 1%;
+}
+.inRight{
+    width: 20%;
+    height: 100%;
+}
