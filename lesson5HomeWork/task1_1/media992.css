@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px){
+    .wrapper{
+        width: 200px;
+        height: 400px;
+        border-radius: 25px;
+        border: gray solid 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .bordRad{
+        border-radius: 15px;
+    }
+    .wr{
+        flex-direction: column;
+        height: 74%;
+        margin: 2%;
+    }
+    .header{
+        width: 96%;
+        height: 20%;
+        margin: 2%;
+    }
+    .inRight{
+        width: 98%;
+        height: 40%;
+        margin-top: 4%;
+    }
+    .inLeft{
+        width: 98%;
+    }
+}
