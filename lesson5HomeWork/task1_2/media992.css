@@ -1,0 +1,63 @@
+@media screen and (max-width: 992px){
+    .wrapper{
+        width: 300px;
+        height: 450px;
+    }
+    .contentBox{
+        height: 450px;
+        border: #9c9c9c solid 6px;
+    }
+    .contentWrapper{
+        height: 82%;
+        flex-direction: column;
+    }
+    .contentWrLeft {
+        width: 101%;
+        height: 100%;
+    }
+    .contentRight {
+        width: 99.5%;
+        height: 20%;
+        background-color: #d9d9d9;
+    }
+    .box{
+        border-radius: 35%;
+    }
+    .rad{
+        border-radius: 15px;
+    }
+    .boxA {
+        height: 12%;
+        margin: 4% 1% 4% 1%;
+    }
+    .boxB {
+        height: 64%;
+        margin-bottom: 4%;
+    }
+    .D{
+        margin: 0 5% 0 5%;
+    }
+    .wrCDE {
+        height: 29%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
