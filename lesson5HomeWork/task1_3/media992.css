@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 300px;
+        height: 450px;
+    }
+
+    .contentBox {
+        border-radius: 25px;
+    }
+
+    .boxA {
+        width: 94%;
+        height: 20%;
+        margin: 3%;
+    }
+
+    .contentWrapper {
+        flex-direction: column;
+        width: 94%;
+        height: 73%;
+        margin-left: 3%;
+    }
+
+    .contentWrapper2 {
+        width: 100%;
+    }
+
+    .contentWrLeft {
+        height: 95%;
+    }
+
+    .wrBoxBCD {
+        margin-bottom: 4%;
+    }
+
+    .box {
+        width: 25%;
+        border-radius: 30%;
+    }
+
+    .contentRight {
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    .br15 {
+        border-radius: 15px;
+    }
+
+
+}
