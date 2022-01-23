@@ -1,0 +1,87 @@
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 500px;
+        height: 1300px;
+        color: #db7c7d;
+    }
+
+    .logo {
+        margin-right: 1px;
+    }
+
+    .header {
+        width: 79%;
+    }
+
+    .contWr {
+        flex-direction: column;
+        height: 67%;
+        margin-bottom: 0;
+
+    }
+
+    .noneM {
+        display: none;
+    }
+
+    .navWr {
+        width: 100%;
+        height: 10%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        height: 100%;
+    }
+
+    .wr4567 {
+        width: 100%;
+        height: 90%;
+    }
+
+    .wr6_7 {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .types {
+        width: 100%;
+        height: 68%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .products {
+        width: 100%;
+        height: 30%;
+    }
+
+    .noneD {
+        display: flex;
+        height: 10%;
+
+    }
+
+    .wr8_9 {
+        margin-bottom: 20px;
+    }
+
+    .store {
+        width: 48.5%;
+        height: 100%;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .tools {
+        width: 48.5%;
+        height: 100%;
+    }
+
+    .footer {
+        height: 12%;
+    }
+
+
+}
