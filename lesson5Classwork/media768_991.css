@@ -1,42 +1,33 @@
-body {
-    margin: 0;
-}
-
-.bodyWr {
-    text-align: center;
-    font-size: 36px;
-    width: 600px;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-@media screen  and (min-width: 992px) {
+@media screen  and (min-width: 768px) and (max-width: 991px) {
+    .bodyWr {
+        width: 400px;
+    }
 
     .wrapper {
-        height: 1100px;
-        width: 600px;
+        display: flex;
+        height: 800px;
+        width: 400px;
     }
 
     .wrapper2 {
-        width: 100%;
+        width: 84%;
         height: 100%;
     }
 
     .header {
-        width: 100%;
+        width: 80%;
         height: 5%;
         border: black solid 2px;
         box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 2% 0 2%;
+        padding: 0 3% 0 3%;
+
     }
 
     .headerItem {
-        width: 16.5%;
+        width: 22%;
         height: 60%;
 
     }
@@ -45,57 +36,72 @@ body {
         background-color: #e7e7e8;
     }
 
+
     .wr {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 95%;
         display: flex;
     }
 
     .leftItem {
-        width: 20%;
-        height: 90%;
-        border: black solid 2px;
-        border-top: 0;
+        display: none;
+    }
+
+    .leftItemM {
+        z-index: 1;
+        width: 25.7%;
+        height: 30%;
+        border: black dotted 2px;
         box-sizing: border-box;
         display: flex;
         row-gap: 1%;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         padding-top: 2%;
-
 
     }
 
+    .leftItemW {
+        position: fixed;
+        z-index: 2;
+        width: 94px;
+        height: 250px;
+        background-color: white;
+    }
+
+    .leftItemW:hover {
+        z-index: 0;
+        transition: .5s;
+    }
+
+    .leftItemM:hover {
+        z-index: 99;
+    }
+
+    .leftItemInnerT {
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20%;
+    }
 
     .leftItemInner {
         width: 80%;
-        height: 2.2%;
-    }
-
-    .leftItemM {
-        display: none;
-
-    }
-
-    .colorLeftItem {
-        background-color: #6cba68;
+        height: 10%;
     }
 
     .mainContent {
-        width: 80%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
 
     .three {
         width: 100%;
-        height: 20%;
+        height: 15%;
         border: black solid 2px;
         border-top: 0;
-        border-left: 0;
         box-sizing: border-box;
-        padding: 2%;
-
+        padding: 4%;
     }
 
     .threeInner {
@@ -105,16 +111,16 @@ body {
 
     .four {
         width: 100%;
-        height: 10%;
+        height: 20%;
         border: black solid 2px;
         border-top: 0;
-        border-left: 0;
         box-sizing: border-box;
         display: flex;
+        flex-direction: column;
     }
 
     .fourInnerWr {
-        width: 50%;
+        width: 100%;
         height: 100%;
         display: flex;
         justify-content: space-around;
@@ -126,26 +132,37 @@ body {
         height: 70%;
     }
 
+
     .wr2 {
         width: 100%;
-        height: 57%;
+        height: 55%;
         display: flex;
+        flex-direction: column;
+        border: black solid 2px;
+        border-top: 0;
+        box-sizing: border-box;
     }
 
     .five {
-        height: 100%;
-        width: 80%;
+        height: 65%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        padding-bottom: 3%;
+        border-bottom: black solid 2px;
     }
 
     .fiveWrTopCen {
         width: 100%;
-        height: 46%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         row-gap: 9%;
-        justify-content: flex-end;
+        justify-content: center;
+    }
+
+    .centre {
+        display: none;
     }
 
 
@@ -154,8 +171,6 @@ body {
         height: 24%;
         display: flex;
         justify-content: space-around;
-
-
     }
 
     .fiveInnerContent {
@@ -172,26 +187,23 @@ body {
     }
 
     .fiveInnerBottomContent {
-        width: 30%;
+        width: 20%;
         height: 55%;
     }
 
 
     .six {
-        height: 100%;
-        width: 20%;
-        border: black solid 2px;
-        border-top: 0;
-        border-bottom: 0;
+        height: 35%;
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        padding: 5.5% 1% 0 1%;
+        padding: 3% 1% 3% 1%;
         box-sizing: border-box;
+        justify-content: space-around;
     }
 
     .sixWr {
-        width: 100%;
-        height: 32%;
+        width: 40%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -199,22 +211,21 @@ body {
 
     .sixContent {
         width: 100%;
-        height: 28%;
+        height: 25%;
     }
 
     .sixContentAnother {
-        width: 100%;
-        height: 9%;
-        margin-top: 17%;
+        width: 40%;
+        height: 100%;
     }
 
 
     .footer {
         width: 100%;
-        height: 13%;
+        height: 10%;
         box-sizing: border-box;
         border: black solid 2px;
-        border-left: 0;
+        border-top: 0;
         display: flex;
         flex-direction: column;
         padding: 4%;
@@ -224,19 +235,12 @@ body {
 
     .footerContentTop {
         width: 95%;
-        height: 20%;
-    }
-
-    .footerContentBottom {
-        width: 20%;
         height: 25%;
     }
 
+    .footerContentBottom {
+        width: 25%;
+        height: 25%;
+    }
 
 }
-
-
-
-
-
-
